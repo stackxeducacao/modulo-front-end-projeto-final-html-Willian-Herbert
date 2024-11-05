@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <script defer src="./script.js"></script>
+    <title>Willian Herbert</title>
+</head>
+<body>
+    <header class="header">
+        <p>willianherbert</p>
+        <section>
+            <a href="https://github.com/Willian-Herbert" target="_blank">
+                <img src="./images/github.svg" alt="GitHub">
+            </a>
+            <a href="https://www.instagram.com/willian_herbert_/" target="_blank">
+                <img src="./images/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/willianherbert/" target="_blank">
+                <img src="./images/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://wa.me/5549998061369" target="_blank">
+                <img src="./images/whatsapp.svg" alt="Whatsapp">
+            </a>
+        </section>
+    </header>
+
+    <main>
+        <section class="introduction">
+            <img src="./images/foto.jpg" alt="Foto pessoal">
+
+            <div>
+                <h1>
+                    Prazer em te conhecer! <br/>
+                    Eu sou <span class="title-decoration">Willian Herbert</span>.
+                </h1>
+    
+                <p>
+                    Desenvolvedor Web com conhecimento voltado para o Front-End em busca de aprender coisas novas e aprimorar os conhecimentos que possuo.
+                </p>
+    
+                <a href="#contact">
+                    <button class="btn-contact">CONTATO</button>
+                </a>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="skills">
+            <article>
+                <h3>HTML</h3>
+                <p>2 anos de experiência</p>
+            </article>
+
+            <article>
+                <h3>CSS</h3>
+                <p>2 anos de experiência</p>
+            </article>
+
+            <article>
+                <h3>JavaScript</h3>
+                <p>1 ano de experiência</p>
+            </article>
+
+            <article>
+                <h3>MySQL</h3>
+                <p>1 ano de experiência</p>
+            </article>
+
+            <article>
+                <h3>Figma</h3>
+                <p>1 ano de experiência</p>
+            </article>
+
+            <article>
+                <h3>React Native</h3>
+                <p>Estudando...</p>
+            </article>
+        </section>
+
+        <hr>
+
+        <section class="projects">
+            <div class="projects-title">
+                <h2>
+                    Projetos
+                </h2>
+    
+                <a href="#contact">
+                    <button class="btn-contact">CONTATO</button>
+                </a>
+            </div>
+
+            <div class="container-projects">
+                <section class="project">
+                    <img src="./images/imgportfolio.png" alt="Imagem do Portfólio">
+                    <h3>PORTFÓLIO</h3>
+                    <p>HTML | CSS | JavaScript</p>
+                    <a href="https://willian-herbert.github.io/Portfolio/" target="_blank">
+                        <button class="btn-contact">VER PROJETO</button>
+                    </a>
+                    <a href="https://github.com/Willian-Herbert/Portfolio" target="_blank">
+                        <button class="btn-contact">GITHUB</button>
+                    </a>
+                </section>
+    
+                <section class="project">
+                    <img src="./images/imgsitesomaq.png" alt="Imagem Site Somaq">
+                    <h3>SOMAQ AUTOMAÇÃO</h3>
+                    <p>HTML | CSS | JavaScript</p>
+                    <a href="https://www.somaqautomacao.com.br/" target="_blank">
+                        <button class="btn-contact">VER PROJETO</button>
+                    </a>
+                    <a href="https://github.com/Willian-Herbert/Site-Somaq" target="_blank">
+                        <button class="btn-contact">GITHUB</button>
+                    </a>
+                </section>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container-contact">
+                <div>
+                    <h2>Contato</h2>
+                    <p>Deixe sua ideia de projeto para tira-la do papel. Preencha o formulário e retornarei em breve.</p>
+                </div>
+
+                <!-- Formulário de envio utilizando a API do sheet monkey, que vincula o formulário diretamente com um arquivo do google sheets, salvando as informações lá. Ele redireciona pra outra página ao enviar, porém, como não tem domínio não é possível apontar o caminho. É possível visualizar o envio no link: https://docs.google.com/spreadsheets/d/1EnUSt3KtUcxtkIrL9yhZ5zaJMxHeOqitsBbga9dUoe0/edit?usp=sharing
+                OBS: A API possui um prazo de teste grátis de duas semanas, podendo não funcionar mais daqui um tempo -->
+                <form class="form" action="https://api.sheetmonkey.io/form/sXCQPHp4qHEuC2eFvf1cWx" method="post">
+                    <input type="text" name="name" placeholder="NOME" required>
+                    <input type="email" name="email" placeholder="E-MAIL" required>
+                    <textarea name="message" placeholder="MENSAGEM" required></textarea>
+                    <button type="submit" class="btn-contact">ENVIAR MENSAGEM</button>
+                </form>
+            </div>
+
+            <hr>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container-footer">
+            <p>willianherbert</p>
+            <section>
+                <a href="https://github.com/Willian-Herbert" target="_blank">
+                    <img src="./images/github.svg" alt="GitHub">
+                </a>
+                <a href="https://www.instagram.com/willian_herbert_/" target="_blank">
+                    <img src="./images/instagram.svg" alt="Instagram">
+                </a>
+                <a href="https://www.linkedin.com/in/willianherbert/" target="_blank">
+                    <img src="./images/linkedin.svg" alt="LinkedIn">
+                </a>
+                <a href="https://wa.me/5549998061369" target="_blank">
+                    <img src="./images/whatsapp.svg" alt="Whatsapp">
+                </a>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
